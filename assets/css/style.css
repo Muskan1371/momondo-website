@@ -264,6 +264,7 @@ div.content span{
     width:10%;
     border: 1px solid black;
     height:20%;
+    
 }
 .estimate #esttd{
     margin-left: 20%;
@@ -280,6 +281,7 @@ div.content span{
 }
 .estimate table #purpose{
     margin-left:5%;
+    margin-right: 10%;
 }
 /* Estimate Section End*/
 
@@ -324,6 +326,9 @@ footer{
     padding: 50px 125px;
     background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
                 url(../img/banner22.jpg);
+    
+}
+footer .topfoot {
     display: flex;
     justify-content: space-between;
 }
@@ -347,6 +352,46 @@ footer ul li a span{
     font-weight:500;
 
 }
+footer .international div{
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottomfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+
+}
+footer .footmenu ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 15px;
+    padding-top: 12px;
+}
+footer .footmenu ul li a{
+    color: #fff;
+    
+}
+footer .social ul li{
+    display: inline-block;
+    margin-right: 15px;
+    padding-top: 12px;
+    
+    
+}
+footer .footmenu p{
+    margin-bottom: 1%;
+    position: absolute;
+
+}
+footer .social ul li a{
+    padding-right: 10px;
+    color: #fff;
+}
+ footer .bottomfooter .bottomimg{
+    margin-left: 10%;
+    padding-top: 10px;
+ }
 /* Footer Section End*/
 
 
